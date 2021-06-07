@@ -116,7 +116,7 @@ df.head()
 sns.pairplot(df)
 ```
 
-![](graficaRelacion.png)
+![](imagenes\graficaRelacion.png)
 
 ### Variable Y, (Precio/U de area):
 - Se observa que a mayor número de tiendas cercanas el precio tiende a crecer ligeramente
@@ -140,7 +140,7 @@ sns.heatmap(corrMatrix, annot=True)
 plt.show()
 ```
 
-![](correlacion.png)
+![](imagenes\correlacion.png)
 
 ### De la matriz de correlación:
 - X3 tiene los valores más altos de correlación con las variables predictivas X4,X5,X6 y la variable Y a predecir.
@@ -321,7 +321,7 @@ ax.barh(variables,importancia)
 plt.show()
 ```
 
-![](regrelinealclasica.png)
+![](imagenes\regrelinealclasica.png)
 
 
 ```python
@@ -351,7 +351,7 @@ ax.barh(variables,importancia)
 plt.show()
 ```
 
-![](regclasica2.png)
+![](imagenes\regclasica2.png)
 
 
 ```python
@@ -394,7 +394,7 @@ ax.barh(variables,importancia)
 plt.show()
 ```
 
-![](regreElastic.png)
+![](imagenes\regreElastic.png)
 
 ### Random Forest
 
@@ -437,7 +437,7 @@ ax.barh(variables,importancia)
 plt.show()
 ```
 
-![](randomforest.png)
+![](imagenes\randomforest.png)
 
 ### XG Boost
 
@@ -482,7 +482,7 @@ ax.barh(variables,importancia)
 plt.show()
 ```
 
-![](xgBoost.png)
+![](imagenes\xgBoost.png)
 
 ### Support Vectors Machines
 
@@ -521,7 +521,7 @@ ax.barh(variables,importancia)
 plt.show()
 ```
 
-![](SVM.png)
+![](imagenes\SVM.png)
 
 ### Red Neuronal
 #### Se usó el MSE y el MAE como funciones de pérdida
@@ -725,7 +725,7 @@ ax.barh(variables,importancia)
 plt.show()
 ```
 
-![](RedNeuronal.png)
+![](imagenes\RedNeuronal.png)
 
 
 ```python
