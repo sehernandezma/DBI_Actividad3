@@ -116,7 +116,7 @@ df.head()
 sns.pairplot(df)
 ```
 
-![](graficaRelacion.png)
+![nombre1](graficaRelacion.png)
 
 ### Variable Y, (Precio/U de area):
 - Se observa que a mayor número de tiendas cercanas el precio tiende a crecer ligeramente
